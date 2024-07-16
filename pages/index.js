@@ -1,3 +1,4 @@
+"use client"
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import Link from "next/link";
@@ -19,14 +20,14 @@ export default function Index() {
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                 Notus NextJS is Free and Open Source. It does not change any of
                 the CSS from{" "}
-                <a
+                {/* <a
                   href="https://tailwindcss.com/?ref=creativetim"
                   className="text-blueGray-600"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Tailwind CSS
-                </a>
+                </a> */}
                 . It features multiple HTML elements and it comes with dynamic
                 components for ReactJS, Vue and Angular.
               </p>
